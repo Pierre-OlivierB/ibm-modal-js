@@ -65,7 +65,7 @@ window.addEventListener("click", (e) => {
     clickCloseModal();
   }
   //   if (e.target.innerText === "ouverture") {
-  //     // console.log("target");
+  //     console.log("target");
   //     addModal();
   //   }
 });
