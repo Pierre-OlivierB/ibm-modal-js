@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /* background: red; */
+  height: 100vh;
+}
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.content {
+  background: hsl(0, 0%, 75%);
+  width: 20%;
+  min-width: 80px;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+#modal {
+  width: 80%;
+  border: 1px solid transparent;
+  background: hsl(0, 0%, 100%);
+  border-radius: 5px;
+  transition: all 1s ease;
+}
+#modal:hover {
+  transform: scale(1.1);
+  color: hsl(0, 50%, 50%);
+  cursor: pointer;
+}
